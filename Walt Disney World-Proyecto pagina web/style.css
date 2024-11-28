@@ -1,0 +1,142 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+/* Estilos del header */
+.header {
+    background-color: #0077cc;
+    padding: 20px;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero section */
+.hero {
+    background-color: #00bfff;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+.hero-content {
+    margin-top: 3%;
+}
+.video-experience {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 10;
+    
+}
+
+.btn-primary {
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background-color: white;
+    color: #0044cc;
+    border: 2px solid #0044cc;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Offers section */
+.offers {
+    padding: 20px;
+    margin: 10px;
+    width: 1008px;
+}
+
+.offer-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.offer-card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    width: 926px;
+}
+
+.experience-cards{
+    margin-left: 20px;
+}
+
+.experiencias {
+    width: 645px;
+    margin: 5px;
+}
+
+.info-cards {
+    display: flex;
+    margin-left: 30px;
+}
+
+strong {
+    width: 900px;
+}
+
+/* Footer */
+.footer {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
