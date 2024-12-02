@@ -35,6 +35,15 @@ body {
     color: white;
 }
 
+.nav-compras {
+    background-color: #f0f8ff;
+    
+    padding: 20px;
+}
+
+.compras {
+    width: 40px;
+}
 /* Hero section */
 .hero {
     background-color: #00bfff;
