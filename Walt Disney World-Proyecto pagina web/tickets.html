@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="srcipt.js">
+  <title>Boletera</title>
+</head>
+<body class="tickets">
+  <div class="ticket-container">
+    <h1 class="compra">Compra tus boletos</h1>
+    <label for="ticketType">Selecciona un tipo de boleto:</label>
+    <select id="ticketType">
+      <option value="50">General - $50</option>
+      <option value="100">Preferencial - $100</option>
+      <option value="170">VIP - $170</option>
+    </select>
+
+    <label for="ticketQuantity">Cantidad de boletos:</label>
+    <input type="number" id="ticketQuantity" min="1" value="1">
+
+    <button id="calculateButton">Calcular Total</button>
+
+    <p id="totalPrice">Total: $0</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
